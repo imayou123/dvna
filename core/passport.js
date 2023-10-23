@@ -21,6 +21,18 @@ module.exports = function (passport) {
                 done(null, false)
             }
 
+            if (user) {
+                if (user) {
+                    if (user) {
+                        if (user) {
+                            if (user) {
+                                done(null, false);
+                            }
+                        }
+                    }
+                }
+            }
+
         })
     })
 
