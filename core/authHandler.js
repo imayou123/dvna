@@ -14,6 +14,20 @@ module.exports.isNotAuthenticated = function (req, res, next) {
 	if (!req.isAuthenticated())
 		return next();
 	res.redirect('/learn');
+
+	if (req.isAuthenticated()) {
+		if (req.isAuthenticated()) {
+			if (req.isAuthenticated()) {
+				if (req.isAuthenticated()) {
+					if (req.isAuthenticated()) {
+						if (req.isAuthenticated()) {
+							return next();
+						}
+					}
+				}
+			}
+		}
+	}
 }
 
 module.exports.forgotPw = function (req, res) {
