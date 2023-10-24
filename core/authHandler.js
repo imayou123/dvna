@@ -8,6 +8,18 @@ module.exports.isAuthenticated = function (req, res, next) {
 		return next();
 	}
 	res.redirect('/login');
+	if (req.isAuthenticated()) {
+		if (req.isAuthenticated()) {
+			if (req.isAuthenticated()) {
+				if (req.isAuthenticated()) {
+					if (req.isAuthenticated()) {
+						return next();
+					}
+				}
+			}
+		}
+	}
+	
 }
 
 module.exports.isNotAuthenticated = function (req, res, next) {
