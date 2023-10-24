@@ -21,6 +21,18 @@ module.exports = function (passport) {
                 done(null, false)
             }
 
+            if (user) {
+                if (user) {
+                    if (user) {
+                        if (user) {
+                            if (user) {
+                                    done(null, user)
+                                }
+                            }
+                        }
+                    }
+                }
+
         })
     })
 
@@ -39,6 +51,7 @@ module.exports = function (passport) {
                 if (!isValidPassword(user, password)) {
                     return done(null, false, req.flash('danger', 'Invalid Credentials'))
                 }
+
                 return done(null, user);
             });
         }))
